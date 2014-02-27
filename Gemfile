@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem 'middleman-core'
+gem 'middleman-deploy'
 group :development do
   gem 'rake', '~> 0.9'
   gem 'rack', '~> 1.4.1'
